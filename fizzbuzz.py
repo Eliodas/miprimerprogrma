@@ -11,6 +11,8 @@ for indice in range(len(numeros)):
             valor +="Fizz"
         if numero % 5 ==0:
             valor +="Buzz"
+        if numero % 3==0 and numero % 5== 0:
+            valor = "Bazinga"
 
         if valor != "":
             numero=valor
